@@ -13,8 +13,12 @@ public class Main {
         printSubarray(arr,k);
     }
 
+<<<<<<< Updated upstream
     private static void printSubarray(ArrayList<Integer> arr, int k) {
 
+=======
+    private static List<Double> getRollingAverage(ArrayList<Integer> arr, int k) {
+>>>>>>> Stashed changes
         LinkedList<Integer> subList = new LinkedList<>();
 
         double sum = 0;
@@ -38,8 +42,12 @@ public class Main {
                 sum += num;
             }
             System.out.println("Среднее значение подмассива: " + (sum / k));
+<<<<<<< Updated upstream
 
 
+=======
+            averages.add(sum / k);
+>>>>>>> Stashed changes
         }
     }
 }
